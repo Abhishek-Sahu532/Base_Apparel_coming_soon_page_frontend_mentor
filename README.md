@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Abhishek-Sahu532/Base_Apparel_coming_soon_page_frontend_mentor.git)
-- Live Site URL: [Add live site URL here](https://abhishek-sahu532.github.io/Base_Apparel_coming_soon_page_frontend_mentor/)
+- Solution URL: [https://github.com/Abhishek-Sahu532/Base_Apparel_coming_soon_page_frontend_mentor.git]
+- Live Site URL: [https://abhishek-sahu532.github.io/Base_Apparel_coming_soon_page_frontend_mentor/]
 
 ## My process
 
