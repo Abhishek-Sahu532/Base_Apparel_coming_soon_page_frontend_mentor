@@ -1,0 +1,163 @@
+body{
+    background-image: url('images/bg-pattern-desktop.svg');
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center */
+    /* justify-content: space-between; */
+}
+
+
+.logo{
+    margin-top: 50px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 200px 250px auto 150px
+}
+
+.text-section .product_head h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: Josefin Sans;
+    font-weight: 900;
+    letter-spacing: 15px;
+    color:  hsl(0, 6%, 24%);
+}
+
+.text-section .product_head span{
+    color: hsl(0, 36%, 70%);
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+
+
+.text-section .product_desc p{
+    margin-top: -40px;
+    color: hsl(0, 36%, 70%);
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 600;
+    margin-right: 12rem;
+    line-height: 23px;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+}
+
+
+.text-section .email input{
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 36%, 70%);
+    width: 425px;
+}
+
+
+button{
+    padding: 14px;
+    background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+border: none;
+border-radius: 25px;
+width: 75px;
+}
+
+.email{
+    display: flex;
+}
+
+.emailsendBtn{
+    position: absolute;
+    left: 550px
+}
+
+.text-section .email input::placeholder{
+    font-family: Josefin Sans;
+    color: hsl(0, 36%, 70%);
+}
+
+
+
+.image_section img{
+    height: 100%;
+    width: auto;
+}
+
+.mobileImg{
+    display: none;
+}
+
+.error{
+    color: hsl(0, 36%, 70%);
+    margin-left: 35px;
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .mobileImg{
+        display: block;
+    }
+
+    .image_section{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+        margin-top: -40px;
+        margin-left: 25px;
+    }
+    .logo img{
+        width: 100px;
+        height: 20px;
+    }
+.mobileImg{
+    margin-top: 75px;
+}
+
+.mobileImg img{
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin: 10px;
+}
+
+.text-section .product_head h1{
+    font-size: 3rem;
+}
+
+.text-section .product_desc{
+    margin: 10px;
+}
+
+.text-section .product_desc p{
+    margin: 0;
+    text-align: justify;
+}
+
+.text-section .email input{
+  
+    width: 270px;
+}
+.emailsendBtn{
+    position: absolute;
+    left: 295px
+}
+}
